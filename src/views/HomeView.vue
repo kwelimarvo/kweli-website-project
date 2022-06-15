@@ -1,4 +1,29 @@
 <template>
+  <section id="services" class="container mx-auto my-4">
+    <div>
+      <h3 class="text-center font-semibold text-xl text-gray-900 font-inter-regular">What we do</h3>
+    </div>
+  </section>
+
+  <section id="milestones" class="bg-neutral-900">
+    <div>
+      MILESTONES
+    </div>
+  </section>
+
+  <section id="cards" class="container mx-auto my-4">
+    <h3 class="font-semibold text-xl text-left text-neutral-800">Leadership</h3>
+    <div class="grid place-items-center md:grid-cols-3 space-y-2">
+      <div class="rounded-md"><img src="../assets/images/board/chris.png" alt=""></div>
+      <div class="rounded-md"><img src="../assets/images/board/calvin.png" alt=""></div>
+      <div class="rounded-md"><img src="../assets/images/board/hilda.png" alt=""></div>
+      <div class="rounded-md"><img src="../assets/images/board/ken.png" alt=""></div>
+      <div class="rounded-md"><img src="../assets/images/board/phillipa.png" alt=""></div>
+    </div>
+  </section>
+
+  <hr class="font-bold">
+
   <div class="bg-neutral-900 pb-10">
 
     <div>
