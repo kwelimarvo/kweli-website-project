@@ -1,23 +1,16 @@
 <template>
-  <nav class="text-right">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/contact">Contact Us</router-link>
-  </nav>
   <router-view/>
 </template>
 
-<style>
+<!-- <style>
 #app {
   font-family: Montserrat - Semi Bold, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
   /* text-align: center; */
   color: #2c3e50;
 }
 
-nav {
-  padding: 10px;
-}
 
 nav a {
   font-weight: bold;
@@ -25,6 +18,6 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #000;
 }
-</style>
+</style> -->

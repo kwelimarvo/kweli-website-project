@@ -1,6 +1,19 @@
 <template>
-  <section class="bg-[url('/src/assets/images/hero.png')] bg-cover w-full h-screen bg-no-repeat">
-    
+  <section id="hero" class="bg-[url('/src/assets/images/hero.png')] bg-cover w-full h-screen bg-no-repeat">
+    <div class="pt-4"></div>
+    <nav id="navigation" class="fixed inset-x-0 py-4 px-4 font-medium text-right flex items-center justify-between flex-wrap text-right bg-white rounded-md uppercase text-sm mx-10">
+       <div class="pt-4">
+        <img src="../assets/images/logo.png" alt="">
+       </div>
+
+      <router-link to="/">solutions</router-link> 
+      <router-link to="/contact">leadership</router-link>
+      <router-link to="/contact">investor relations</router-link>
+      |
+      <router-link to="/contact"><span class="bg-neutral-900 text-white lowercase p-1 rounded-md">Subsidiaries</span></router-link>
+    </nav>
+
+      
   </section>
 
   <section id="services" class="container mx-auto my-4">
@@ -12,15 +25,15 @@
 
     <div class="flex items-center justify-between font-bold text-black border-b border-gray-200">
       <div>
-        <a> <img src="../assets/images/bomayangu.png" alt=""><span class="border-b-2 border-neutral-900">Bomayangu Portal</span></a>
+        <a> <img class="mx-auto pb-2" src="../assets/images/bomayangu.png" alt=""><span class="border-b-2 border-neutral-900">Bomayangu Portal</span></a>
       </div>
 
       <div>
-        <a> <img src="../assets/images/tenant.png" alt=""><span>Tenant Purchase Platform</span></a>
+        <a> <img class="mx-auto pb-2" src="../assets/images/tenant.png" alt=""><span>Tenant Purchase Platform</span></a>
       </div>
 
       <div>
-        <a> <img src="../assets/images/amaka.png" alt=""><span>Amaka Fund</span></a>
+        <a> <img class="mx-auto pb-2" src="../assets/images/amaka.png" alt=""><span>Amaka Fund</span></a>
       </div>
 
     </div>
@@ -194,12 +207,11 @@
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
+// import NavBar from '@/components/NavBar.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    
   }
 }
 </script>
