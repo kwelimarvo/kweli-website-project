@@ -16,14 +16,60 @@
   <section id="cards" class="container mx-auto my-4">
     <h3 class="font-semibold text-xl text-left text-neutral-800">Leadership</h3>
     <div class="grid place-items-center md:grid-cols-3 space-y-2">
-      <div class="rounded-md"><img src="../assets/images/board/chris.png" alt=""></div>
-      <div class="rounded-md"><img src="../assets/images/board/calvin.png" alt=""></div>
-      <div class="rounded-md"><img src="../assets/images/board/hilda.png" alt=""></div>
+      <div class="rounded-md">
+        <img src="../assets/images/board/chris.png" alt="">
+        
+        <div class="py-2">
+          <div class="font-bold text-xl mb-2">Kris Senanu</div>
+          <p class="text-gray-700 text-base">
+            Board Member
+          </p>
+        </div>
+      </div>
+      
+      <div class="rounded-md">
+        <img src="../assets/images/board/calvin.png" alt="">
+      
+        <div class="py-2">
+            <div class="font-bold text-xl mb-2">Calvin Nyachoti</div>
+            <p class="text-gray-700 text-base">
+              Board Member
+            </p>
+        </div>
+      </div>
+      <div class="rounded-md">
+        <img src="../assets/images/board/hilda.png" alt="">
+        
+        <div class="py-2">
+              <div class="font-bold text-xl mb-2">Hilda Moraa</div>
+              <p class="text-gray-700 text-base">
+                Board Member
+              </p>
+        </div>
+      </div>
       <!-- <div class="justify-start"></div> -->
     </div>
     <div class="grid place-items-center md:grid-cols-2 space-y-2">
-      <div class="rounded-md"><img src="../assets/images/board/ken.png" alt=""></div>
-      <div class="rounded-md"><img src="../assets/images/board/phillipa.png" alt=""></div>
+      <div class="rounded-md">
+        <img src="../assets/images/board/ken.png" alt="">
+      
+        <div class="py-2">
+              <div class="font-bold text-xl mb-2">Kennedy Kipng'etich</div>
+              <p class="text-gray-700 text-base">
+                Board Member
+              </p>
+        </div>
+      </div>
+      <div class="rounded-md">
+        <img src="../assets/images/board/phillipa.png" alt="">
+        
+        <div class="py-2">
+              <div class="font-bold text-xl mb-2">Phillipa Mbonye</div>
+              <p class="text-gray-700 text-base">
+                Board Member
+              </p>
+        </div>
+      </div>
     </div>
   </section>
 
