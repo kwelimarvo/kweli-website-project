@@ -144,9 +144,13 @@
     </div>
   </section>
 
-  <section id="footer" class="bg-[url('/src/assets/images/footerimg.png')]">
-    <div>
+  <section id="footer" class="bg-[url('/src/assets/images/footerimg.png')] bg-black bg-no-repeat py-4">
+    <div class="container mx-auto text-xs text-gray-500 font-normal ">
       <p>&copy; Copyright KWELI CAPITAL. All Rights Reserved</p>
+    
+      <div class="flex">
+
+      </div>
     </div>
   </section>
 </template>
