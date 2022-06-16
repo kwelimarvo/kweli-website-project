@@ -7,9 +7,22 @@
     </div>
   </section>
 
-  <section id="milestones" class="bg-neutral-900">
-    <div>
-      MILESTONES
+  <section id="milestones">
+    <div class="bg-[url('/src/assets/images/milestones.png')] h-64 bg-no-repeat">
+      <div class="container mx-auto grid md:grid-cols-2 place-items-center">
+        <div class="w-1/2 pt-10 text-gray-300  ">
+          <h3 class="font-bold text-2xl">Milestones</h3>
+          <span>
+            <img class="my-9" src="../assets/images/rocket.png" alt="">
+            <h3>KSHS. 1.51B</h3>
+          </span>
+        </div>
+
+        <div class="w-1/2">
+
+        </div>
+        
+      </div>
     </div>
   </section>
 
@@ -121,7 +134,6 @@
       </div>
     </div>
   </section>
-
 
   <section id="footer" class="bg-[url('/src/assets/images/footerimg.png')]">
     <div>
