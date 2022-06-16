@@ -1,4 +1,8 @@
 <template>
+  <section class="bg-[url('/src/assets/images/hero.png')] bg-cover w-full h-screen bg-no-repeat">
+    
+  </section>
+
   <section id="services" class="container mx-auto my-4">
     <div class="text-center text-neutral-400 text-sm w-full mb-10">
       <h3 class="font-semibold text-2xl text-gray-900 font-inter-regular mb-2">What we do</h3>
