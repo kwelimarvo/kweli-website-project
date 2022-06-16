@@ -7,30 +7,39 @@
     </div>
   </section>
 
-  <section id="milestones">
-    <div class="bg-[url('/src/assets/images/milestones.png')] h-64 bg-no-repeat">
-      <div class="container mx-auto grid md:grid-cols-2 place-items-center">
-        <div class="w-1/2 pt-10 text-gray-300  ">
-          <h3 class="font-bold text-2xl">Milestones</h3>
-          <span>
+  <section id="milestones" class="bg-[url('/src/assets/images/milestones.png')] h-64 bg-no-repeat">
+      <div class="container mx-auto flex items-center justify-center gap-10">
+        <div class="flex items-center justify-between w-3/4  text-gray-300">
+          <div>
+            <h3 class="font-bold pt-10 text-2xl">Milestones</h3>
             <img class="my-9" src="../assets/images/rocket.png" alt="">
-            <h3>KSHS. 1.51B</h3>
-          </span>
+          </div>
+          
+          <div> 
+            <h3 class="text-gray-300 font-bold text-xl">KSHS. 1.51B</h3>
+
+            <p class="w-80">
+              Saved by citizens through Affordable Housing Programs Current Mortgages in Kenya - 21,000 Over 33,000 active savers on the BomaYangu platform in under 3 years. 
+            </p>
+          </div>
         </div>
 
-        <div class="w-1/2">
+        <div class="w-1/4">
+          <h3 class="text-gray-300 font-bold text-xl">KSHS 50B</h3>
 
+          <p class="text-zinc-400 text-sm pt-2">
+            Committed by banks toward Affordable Housing Programs
+          </p>
         </div>
         
       </div>
-    </div>
   </section>
 
   <section id="cards" class="container mx-auto my-4">
     <h3 class="font-semibold text-xl text-left text-neutral-800">Leadership</h3>
     <div class="grid place-items-center md:grid-cols-3 space-y-2">
       <div class="rounded-md">
-        <img src="../assets/images/board/chris.png" alt="">
+        <img src="../assets/images/board/chris.png" alt=""  class="hover:-translate-y-2 cursor-pointer duration-700">
         
         <div class="py-2">
           <div class="font-bold text-xl mb-2">Kris Senanu</div>
@@ -41,7 +50,7 @@
       </div>
       
       <div class="rounded-md">
-        <img src="../assets/images/board/calvin.png" alt="">
+        <img src="../assets/images/board/calvin.png" alt="" class="hover:-translate-y-2 cursor-pointer duration-700">
       
         <div class="py-2">
             <div class="font-bold text-xl mb-2">Calvin Nyachoti</div>
@@ -51,7 +60,7 @@
         </div>
       </div>
       <div class="rounded-md">
-        <img src="../assets/images/board/hilda.png" alt="">
+        <img src="../assets/images/board/hilda.png" alt="" class="hover:-translate-y-2 cursor-pointer duration-700">
         
         <div class="py-2">
               <div class="font-bold text-xl mb-2">Hilda Moraa</div>
@@ -64,7 +73,7 @@
     </div>
     <div class="grid place-items-center md:grid-cols-2 space-y-2">
       <div class="rounded-md">
-        <img src="../assets/images/board/ken.png" alt="">
+        <img src="../assets/images/board/ken.png" alt="" class="hover:-translate-y-2 cursor-pointer duration-700">
       
         <div class="py-2">
               <div class="font-bold text-xl mb-2">Kennedy Kipng'etich</div>
@@ -74,7 +83,7 @@
         </div>
       </div>
       <div class="rounded-md">
-        <img src="../assets/images/board/phillipa.png" alt="">
+        <img src="../assets/images/board/phillipa.png" alt="" class="hover:-translate-y-2 cursor-pointer duration-700">
         
         <div class="py-2">
               <div class="font-bold text-xl mb-2">Phillipa Mbonye</div>
