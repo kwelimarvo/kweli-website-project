@@ -1,10 +1,43 @@
 <template>
-  <section id="services" class="container mx-auto my-4 w-1/2">
-    <div class="text-center px-6 text-neutral-400 text-sm">
-      <h3 class="font-semibold text-2xl text-gray-900 font-inter-regular">What we do</h3>
+  <section id="services" class="container mx-auto my-4">
+    <div class="text-center text-neutral-400 text-sm w-full mb-10">
+      <h3 class="font-semibold text-2xl text-gray-900 font-inter-regular mb-2">What we do</h3>
 
       <p>Kweli Capital is inspired by the power of data as point of connection. We not only connect people, businesses and industries, we also inspire informed strategic decisions that power the future. We enable governments and the private sector to make better decisions via our data driven solutions.</p>
     </div>
+
+    <div class="flex items-center justify-between font-bold text-black border-b border-gray-200">
+      <div>
+        <a> <img src="../assets/images/bomayangu.png" alt=""><span class="border-b-2 border-neutral-900">Bomayangu Portal</span></a>
+      </div>
+
+      <div>
+        <a> <img src="../assets/images/tenant.png" alt=""><span>Tenant Purchase Platform</span></a>
+      </div>
+
+      <div>
+        <a> <img src="../assets/images/amaka.png" alt=""><span>Amaka Fund</span></a>
+      </div>
+
+    </div>
+
+    <div class="container mx-auto py-16 px-2 flex">
+      <div class="w-1/4 mr-8">
+        <img class="h-full" src="../assets/images/whatwedo.png"   alt="banner_image">
+      </div>
+      <div class="flex flex-col justify-center w-3/4">
+        <div class="pr-6">
+          <h3 class="text-neutral-900 font-bold text-2xl font-medium">Build anything,<br> anytime!</h3>
+          <p class="text-stone-400 text-sm">
+            We offer support and continuous development for the State Department of Housing and Urban Development - Kenya, for the government's affordable housing portal.
+          </p>
+
+          <div class="border-b-2 border-gray-100 mt-6 pb-3"></div>
+        </div>
+      </div>
+      
+    </div>
+    
   </section>
 
   <section id="milestones" class="bg-[url('/src/assets/images/milestones.png')] h-64 bg-no-repeat">
