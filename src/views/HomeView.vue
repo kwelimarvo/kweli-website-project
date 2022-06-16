@@ -1,7 +1,9 @@
 <template>
-  <section id="services" class="container mx-auto my-4">
-    <div>
-      <h3 class="text-center font-semibold text-xl text-gray-900 font-inter-regular">What we do</h3>
+  <section id="services" class="container mx-auto my-4 w-1/2">
+    <div class="text-center px-6 text-neutral-400 text-sm">
+      <h3 class="font-semibold text-2xl text-gray-900 font-inter-regular">What we do</h3>
+
+      <p>Kweli Capital is inspired by the power of data as point of connection. We not only connect people, businesses and industries, we also inspire informed strategic decisions that power the future. We enable governments and the private sector to make better decisions via our data driven solutions.</p>
     </div>
   </section>
 
@@ -17,6 +19,9 @@
       <div class="rounded-md"><img src="../assets/images/board/chris.png" alt=""></div>
       <div class="rounded-md"><img src="../assets/images/board/calvin.png" alt=""></div>
       <div class="rounded-md"><img src="../assets/images/board/hilda.png" alt=""></div>
+      <!-- <div class="justify-start"></div> -->
+    </div>
+    <div class="grid place-items-center md:grid-cols-2 space-y-2">
       <div class="rounded-md"><img src="../assets/images/board/ken.png" alt=""></div>
       <div class="rounded-md"><img src="../assets/images/board/phillipa.png" alt=""></div>
     </div>
